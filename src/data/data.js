@@ -1,0 +1,43 @@
+const Dmax = 4.5;
+
+const nodesCoordinates = [
+  { node: 0, x: 40, y: 40, demand: 0 },
+  { node: 9, x: 26, y: 59, demand: 0.5 },
+  { node: 10, x: 40, y: 66, demand: 0.5 },
+  { node: 11, x: 55, y: 65, demand: 0.5 },
+  { node: 12, x: 35, y: 51, demand: 0.5 },
+  { node: 13, x: 62, y: 35, demand: 0.5 },
+  { node: 14, x: 62, y: 57, demand: 0.5 },
+  { node: 15, x: 62, y: 24, demand: 0.5 },
+  { node: 16, x: 21, y: 36, demand: 0.5 },
+  { node: 17, x: 33, y: 44, demand: 0.5 },
+  { node: 18, x: 9, y: 56, demand: 0.5 },
+  { node: 19, x: 62, y: 48, demand: 0.5 },
+  { node: 20, x: 66, y: 14, demand: 0.5 },
+  { node: 21, x: 44, y: 13, demand: 0.5 },
+  { node: 22, x: 26, y: 13, demand: 0.5 },
+  { node: 23, x: 11, y: 28, demand: 0.5 },
+  { node: 24, x: 7, y: 43, demand: 0.5 },
+  { node: 25, x: 17, y: 64, demand: 0.5 },
+  { node: 26, x: 41, y: 46, demand: 0.5 },
+  { node: 27, x: 55, y: 34, demand: 0.5 },
+  { node: 28, x: 35, y: 16, demand: 0.5 },
+  { node: 29, x: 52, y: 26, demand: 0.5 },
+  { node: 30, x: 43, y: 26, demand: 0.5 },
+  { node: 31, x: 31, y: 76, demand: 0.5 },
+  { node: 32, x: 22, y: 53, demand: 0.5 },
+  { node: 33, x: 26, y: 29, demand: 0.5 },
+  { node: 34, x: 50, y: 40, demand: 0.5 },
+  { node: 35, x: 55, y: 50, demand: 0.5 },
+  { node: 36, x: 54, y: 10, demand: 0.5 },
+  { node: 37, x: 60, y: 15, demand: 0.5 },
+  { node: 38, x: 47, y: 66, demand: 0.5 },
+  { node: 39, x: 30, y: 60, demand: 0.5 },
+  { node: 40, x: 30, y: 50, demand: 0.5 },
+  { node: 41, x: 12, y: 17, demand: 0.5 },
+  { node: 42, x: 15, y: 14, demand: 0.5 },
+  { node: 43, x: 16, y: 19, demand: 0.5 },
+];
+
+const baseNode = { node: 0, x: 40, y: 40, demand: 0 };
+export { nodesCoordinates, baseNode, Dmax };
